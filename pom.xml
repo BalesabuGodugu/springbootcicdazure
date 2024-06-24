@@ -47,15 +47,10 @@
 		</dependency> -->
 
 		<!-- Azure Web App Maven Plugin --> 
-		<dependency> 
-			<groupId>com.microsoft.azure</groupId> 
-			<artifactId>azure-webapp-maven-plugin</artifactId> 
-			<version>2.13.0</version> 
-		</dependency> <!-- MySQL Connector/J --> 
-		<dependency> 
-			<groupId>mysql</groupId> 
-			<artifactId>mysql-connector-java</artifactId> 
-			<scope>runtime</scope> 
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 
 <!--		<dependency>-->
